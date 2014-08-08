@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/icons/icomatic.css">
+
+</head>
+<body>
+    <div id="container" class="image">
+        <div id="drag-container">
+            <div id="drag"></div>
+            <span id="drag-label">draggable</span>
+        </div>
+
+
+        <div id="slow-click">LENTO</div>
+        <div id="fast-click">FLUIDO</div>
+        <div id="animate">ANIMAR</div>
+        <div id="show-item">SHOW ITEM</div>
+
+
+        <div id="item-display">
+            <div id="close-display"> <span class='icomatic'>cancel</span></div>
+            <div id="logo"> <img src="images/garza-blanca.png" style="height: 4em;"> </div>
+
+            <div id="item-container">
+                <div id="item-flipper"  >
+                    <div id="item-image">
+                        <div id="item-tittle">The Disco Lemonade</div>
+                    </div>
+                    <div id="item-text">
+                        Yeah there she was<br><br>
+                        Like <b>Disco Lemonade</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<div id="blur-container">-->
+        <!--<div id="blur-bg" class="image"></div>-->
+        <!--<div id="blur-content"></div>-->
+        <!--</div>-->
+    </div>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="css/icons/icomatic.js"></script>
+    <script>
+        window.onload = function() { IcomaticUtils.run(); }
+    </script>
+
+
+</body>
+</html>
